@@ -10,6 +10,10 @@ Sempre que publicar uma nova tag no GitHub (Releases → Create a new release), 
 
 ---
 
+## v1.1 — Rastreamento de conversão do Google Ads (tag geral)
+- Instalada a tag geral do Google (`gtag.js`, conta `AW-18253915002`) logo após o `<head>`, em todas as páginas
+- Ainda pendente: snippet de evento específico da conversão "Clique no WhatsApp" (depende do amigo concluir a criação da ação de conversão no Google Ads)
+
 ## v1.0 — Versão inicial publicada
 - Site completo: Início, Serviços, Sobre Nós, Localização e Contato
 - Logo e foto real da oficina
