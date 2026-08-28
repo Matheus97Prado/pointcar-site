@@ -10,6 +10,10 @@ Sempre que publicar uma nova tag no GitHub (Releases → Create a new release), 
 
 ---
 
+## v1.2 — Rastreamento de conversão do clique no WhatsApp
+- Adicionado o evento de conversão "Clique no WhatsApp" (`AW-18253915002/ueH5CLSNv-kcEPrGkoBE`) nos 4 botões que levam ao WhatsApp: ícone flutuante, "Chamar" (seção Contato), "Agendar Serviço" (hero) e número do rodapé
+- Adaptado o snippet padrão do Google: como os 4 links já abrem em nova aba (`target="_blank"`), o disparo do evento é feito direto no `onclick`, sem o redirecionamento via `window.location` que o Google sugere por padrão (que é pensado para links na mesma aba)
+
 ## v1.1 — Rastreamento de conversão do Google Ads (tag geral)
 - Instalada a tag geral do Google (`gtag.js`, conta `AW-18253915002`) logo após o `<head>`, em todas as páginas
 - Ainda pendente: snippet de evento específico da conversão "Clique no WhatsApp" (depende do amigo concluir a criação da ação de conversão no Google Ads)
